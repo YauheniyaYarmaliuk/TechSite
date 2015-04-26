@@ -1,3 +1,13 @@
+html {
+	background: url(../pattern.png) 50% 0;
+}
+
+body {
+	opacity: .5;
+}
+
+/* FONTS */
+
 @font-face {
 	font-family: Ubuntu;
 	src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
@@ -50,7 +60,138 @@
 	font-style: italic;
 }
 
-h1 {
+/* COMMON */
+
+body{
+	margin: 0px;
+	background-image: url(../img/glass-building.jpg);
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1200px;
+	height: 1200px;
+	background: white;
+	margin: 0 auto 0 auto;
+}
+
+/* HEADER */
+
+.main-header {
+	position: relative;
+}
+
+/* Logo */
+
+.main-header .logo {
+	width: 321px;
+	margin: 0 auto 0 auto;
+}
+
+/* Phone */
+
+.main-header .phone {
+	padding-left: 100px;
+	position: absolute;
+	top: 85px;
+	left: 49px;
 	font-family: Ubuntu;
+}
+
+.main-header .phone .phone-img {
+	width: 65px;
+	float: left;
+	top: 17px;
+	left: 8px;
+}
+
+.main-header .phone .phone-number {
+	margin-top: 20px;
+	font-size: 26px;
+}
+
+/* Work hours */
+
+
+.main-header .work-hours {
+	padding-left: 100px;
+	position: absolute;
+	top: 20px;
+	left: 800px;
+}
+
+.main-header .work-hours .work-hours-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.main-header .work-hours .work-hours-time {
+	margin-top: 20px;
+}
+
+/* Email */
+
+.main-header .email {
+	padding-left: 100px;
+	position: absolute;
+	top: 80px;
+	left: 800px
+}
+
+.main-header .email .email-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.main-header .email .email-text {
+	margin-top: 20px;
+}
+
+/* Brands */
+
+.main-header .brands ul {
+	display: block;
+	margin: 0;
+	padding: 0;
 	text-align: center;
+	font-size: 0;
+}
+
+.main-header .brands ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px 10px;
+	text-align: center
+}
+
+.main-header .brands ul li img {
+	height: 25px;
+}
+
+/* Main menu */
+
+.main-header .main-menu ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+}
+
+.main-header .main-menu ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px 10px;
+	text-align: center
+}
+
+.main-header .main-menu ul li a {
+	text-decoration: none;
+	color: #888;
+}
+
+.main-header .main-menu ul li a:hover {
+	color: #333;
 }
