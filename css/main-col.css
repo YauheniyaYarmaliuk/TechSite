@@ -4,7 +4,7 @@ main .content .main-col .slider {
 	padding: 6px;
 	background: #cccccc;
 	width: 640px;
-	margin: 0 auto;
+	margin: 88px auto 0;
 	position: relative;
 	font-family: Ubuntu;
 	font-weight: 400;
@@ -16,10 +16,11 @@ main .content .main-col .slider .outimg1 {
 	right: -38px;
 }
 
-/* main .content .main-col .slider .outimg2 {
-	margin-left: -38px;
-	margin-top: 219px;
-} */
+ main .content .main-col .slider .outimg2 {
+	position: absolute;
+	top: 219px;
+	left: -38px;
+}
 
 /* Text */
 
@@ -29,4 +30,14 @@ main .content .main-col ul {
 
 main .content .main-col h2 {
 	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 44px;
+	font-size: 22px;
+	color: #0d365c;
+}
+
+.info-text {
+	width: 640px;
+	margin: 0 auto;
+	font-size: 14px;
 }

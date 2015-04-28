@@ -1,44 +1,58 @@
-/* Content */
+main {
+	overflow: hidden;
+}
+
+.content {
+	overflow: hidden;
+}
 
 main .content .aside-col {
-	width: 543px;
+	width: 440px;
 	float: left;
 	padding-left: 30px;
-	padding-top: 30px;
+	padding-top: 38px;
 	font-family: Ubuntu;
 	font-weight: 500;
-	font-style: italic;
 }
 
 main .content .main-col {
-	margin-left: 543px;
-	padding-top: 60px;
+	margin-left: 488px;
+	width: 744px;
 }
 
 /* Minor-nav */
 
 .minor-nav {
 	width: 440px;
-	background: #336699;
-	padding: 40px 0;
+	background: #3968ab;
+	padding: 38px 0;
 	margin: 0;
 }
 
 .minor-nav li {
 	display: block;
-	line-height: 40px;
+	line-height: 38px;
+	width: 360px;
+}
+
+.minor-nav li:first-child {
+	border-top: 1px solid #284774;
+}
+
+.minor-nav li:last-child {
+	border-bottom: 1px solid #9cb4d5;
 }
 
 .minor-nav li a {
 	display: block;
-	width: 360px;
 	height: 40px;
 	padding-left: 30px;
 	box-sizing: border-box;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #284774;
+	border-top: 1px solid #9cb4d5;
 }
 
 .minor-nav li a:hover {
@@ -54,11 +68,28 @@ main .content .main-col {
 	font-weight: 400;
 }
 
- button .aside-btn2 {
+.aside-btn {
 	display: block;
+	height: 70px;
+	width: 440px;
+	margin: 31px 0;
+	padding: 0;
+	color: #0d365c;
+	font-size: 20px;
+	position: relative;
+	border: 1px solid #2d5172;
+	background: #f6f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6f6f6 0%, #e7e7e7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6f6f6 0%,#e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6f6f6 0%,#e7e7e7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6f6f6 0%,#e7e7e7 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6f6f6 0%,#e7e7e7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
 }
 
-.button-aside-btn img {
-	padding-left: 42px;
-	padding-right: 42px;
+.aside-btn img {
+	position: absolute;
+	top: 5px;
+	left: 40px;
  }

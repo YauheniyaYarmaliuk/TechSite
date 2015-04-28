@@ -123,7 +123,7 @@
 	font-weight: 300;
 }
 
-.main-header .main-menu ul li a .active,
+.main-header .main-menu ul li a.active,
 .main-header .main-menu ul li a:hover {
 	color: #0d365c;
 }
