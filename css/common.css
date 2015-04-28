@@ -1,0 +1,79 @@
+/*
+ html {
+	background: url(../pattern.png) 50% 0;
+}
+
+
+body {
+	opacity: .5;
+}
+*/
+
+
+
+/* COMMON */
+
+body{
+	margin: 0px;
+	background-image: url(../img/glass-building.jpg);
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1280px;
+	background: white;
+	margin: 0 auto 0 auto;
+}
+
+/* Brands */
+
+.brands {
+	position: relative;
+	padding: 7px 0;
+}
+
+
+
+.brands:after {
+	content: "";
+	position: absolute;
+	height: 11px;
+	top: 0;
+	left: 5px;
+	right: 5px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.brands:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background: #fff;
+}
+
+.brands ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+	position: relative;
+	z-index: 2;
+}
+
+.brands ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 9px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.brands ul li img {
+
+}

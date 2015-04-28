@@ -1,133 +1,3 @@
-/* html {
-	background: url(../pattern.png) 50% 0;
-} */
-
-/*
-body {
-	opacity: .5;
-}
-*/
-
-/* FONTS */
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
-	font-weight: 700;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-MediumItalic.ttf);
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf);
-	font-weight: 400;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Idealist Sans Sc;
-	src: url(../fonts/Idealist Sans Sc/Idealist-Sc.ttf);
-	font-weight: 400;
-}
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
-	font-weight: 300;
-}
-
-@font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu/Ubuntu-LightItalic.ttf);
-	font-weight: 300;
-	font-style: italic;
-}
-
-
-@font-face {
-	font-family: Idealist Sans Sc;
-	src: url(../fonts/Idealist Sans Sc/Idealist-Sc.ttf);
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: Idealist Sans Sc;
-	src: url(../fonts/Idealist Sans Sc/Idealist-Light-Sc.ttf);
-	font-weight: 300;
-}
-
-
-@font-face {
-	font-family: Myriad Pro;
-	src: url(../fonts/Myriad Pro/MyriadPro-Bold.otf);
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: Myriad Pro;
-	src: url(../fonts/Myriad Pro/MyriadPro-BoldCond.otf);
-	font-weight: 700;
-}
-
-/* COMMON */
-
-body{
-	margin: 0px;
-	background-image: url(../img/glass-building.jpg);
-	background-size: cover;
-}
-
-.wrapper {
-	width: 1280px;
-	background: white;
-	margin: 0 auto 0 auto;
-}
-
-/* Brands */
-
-.brands ul {
-	display: block;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-size: 0;
-}
-
-.brands ul li {
-	display: inline-block;
-	font-size: 20px;
-	padding: 29px 9px;
-	text-align: center
-}
-
-.brands ul li img {
-	height: 25px;
-}
-
 /* HEADER */
 
 .main-header {
@@ -152,19 +22,18 @@ body{
 }
 
 .main-header .phone .phone-img {
-	width: 65px;
-	float: left;
-	top: 17px;
-	left: 8px;
+	position: absolute;
+	top: 0;
+	left: 130px;
 }
 
 .main-header .phone .phone-number {
 	margin-top: 20px;
 	font-size: 26px;
+	margin-left: 160px;
 }
 
 /* Work hours */
-
 
 .main-header .work-hours {
 	padding-left: 100px;
@@ -245,17 +114,20 @@ body{
 main .content .aside-col {
 	width: 543px;
 	float: left;
+	padding-left: 30px;
+	padding-top: 30px;
 }
 
 main .content .main-col {
 	margin-left: 543px;
+	padding-top: 60px;
 }
 
 /* Minor-nav */
 
 .minor-nav {
 	width: 440px;
-	background: #3366cc;
+	background: #336699;
 	padding: 40px 0;
 	margin: 0;
 }
@@ -278,49 +150,47 @@ main .content .main-col {
 }
 
 .minor-nav li a:hover {
-	background: #08f;
+	background: #6699cc;
 }
 
-/* House*/
 
-.house {
-	background: #ffffff;
-	height: auto;
-	width: 375px;
-	margin-left: 25px;
-	margin-top: 25px;
-	border-style: outset;
-	border-color: #336666;
-	border-width: 1px;
-	padding-left: 25px;
+/* Button */
+
+.button-aside-btn {
+	width: 543px;
 }
 
-/* Technical*/
-
-.technical {
-	background: #ffffff;
-	height: auto;
-	width: 375px;
-	margin-left: 25px;
-	margin-top: 25px;
-	border-style: outset;
-	border-color: #336666;
-	border-width: 1px;
-	padding-left: 25px;
+ button .aside-btn2 {
+	display: block;
 }
 
-/* Content-picture */
+.button-aside-btn img {
+	padding-left: 42px;
+	padding-right: 42px;
+ }
+
+/* Content-slider */
 
 main .content .main-col .slider {
 	padding: 6px;
 	background: #cccccc;
 	width: 640px;
 	margin: 0 auto;
+	position: relative;
 }
 
-main .content .main-col .slider .img {
-
+main .content .main-col .slider .outimg1 {
+	position: absolute;
+	top: 219px;
+	right: -38px;
 }
+
+/* main .content .main-col .slider .outimg2 {
+	margin-left: -38px;
+	margin-top: 219px;
+} */
+
+/* Text */
 
 main .content .main-col ul {
 	padding-left: 18px;
@@ -329,3 +199,70 @@ main .content .main-col ul {
 main .content .main-col h2 {
 	text-align: center;
 }
+
+/* Footer */
+
+.footermenu {
+	background: #666666;
+	height: 115px;
+}
+
+.footermenu-menu {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-size: 0;
+}
+
+
+.footermenu-menu li {
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: right;
+	color: white;
+	border-bottom: 1px solid #999999;
+}
+
+.footerinfo {
+	color: white;
+	width: 543px;
+	float: left;
+	padding-left: 86px;
+}
+
+.footerinfolist li {
+	display: block;
+	text-decoration: none;
+}
+
+.footerinfolist2 li {
+	display: block;
+	text-decoration: none;
+}
+
+.footerinfolist{
+	float: left;
+	width: 115px;
+}
+
+.footerinfo-text {
+	background: #666666;
+	color: white;
+	height: 115px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+/* More Infor */
+
+.footerinfo-important {
+	background: #333333;
+	color: white;
+	text-align: center;
+	padding-bottom: 2px;
+}
+

@@ -4,7 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Техстройсервис</title>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/aside-col.css">
+	<link rel="stylesheet" href="css/main-col.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -17,26 +22,26 @@
 			</div>
 			
 			<div class = "work-hours">
-				<img class="work-hours-img" src="img/Apps-clock-icon.png" width="65" height="65">
+				<img class="work-hours-img" src="img/Apps-clock-icon.png" width="65">
 				<div class="work-hours-time">Пн. - Суб. с 9:00 - 19:05</div>
 			</div>
 			
 			<div class="email">
-				<img class="email-img" src="img/Mail-icon.png" width="65" height="65">
+				<img class="email-img" src="img/Mail-icon.png">
 				<div class="email-text">TSSRUS@MAIL.RU</div>
 			</div>
 			
 			<div class="brands">
 				<ul>
 					<li><img src="img/logo/Brand7.gif"></li>
-					<li><img src="img/logo/Brand8.gif"></li>
+					<li><img src="img/logo/Brand8.gif" height="52"></li>
 					<li><img src="img/logo/Brand1.gif"></li>
 					<li><img src="img/logo/Brand2.gif"></li>
 					<li><img src="img/logo/Brand3.gif"></li>
 					<li><img src="img/logo/Brand4.gif"></li>
 					<li><img src="img/logo/Brand5.gif"></li>
 					<li><img src="img/logo/Brand7.gif"></li>
-					<li><img src="img/logo/Brand8.gif"></li>
+					<li><img src="img/logo/Brand8.gif" height="52"></li>
 					<li><img src="img/logo/Brand1.gif"></li>
 					<li><img src="img/logo/Brand2.gif"></li>
 				</ul>
@@ -45,7 +50,7 @@
 				<ul>
 					<li><a href="#">ЦЕНЫ</a></li>
 					<li><a href="#">ПОЛЕЗНЫЕ СТАТЬИ</a></li>
-					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#" class="active">О КОМПАНИИ</a></li>
 					<li><a href="#">ПОРТФОЛИО</a></li>
 					<li><a href="#">КОНТАКТЫ</a></li>
 				</ul>
@@ -69,20 +74,15 @@
 								<li><a href="#">РЕМОНТ МЯГКОЙ КРОВЛИ</a></li>
 								<li><a href="#">КАРКАСНЫЕ ДОМА</a></li>
 					</ul>
-
-					<div class="house">
-						<img class="house-img" src="img/House-icon.png" width="45" height="45">
-						<div class="house-text"></div>
-					</div>
-
-					<div class="technical">
-						<img class="house-img" src="img/Occupations-Technical-Support-Representative-Male-Light-icon.png" width="45" height="45">
-						<div class="technical-text"></div>
+					<div class="button-aside-btn">
+						<button class="aside-btn1"><img src="img/House-icon.png" height="60" >Вызвать замерщика</button>
+						<button class="aside-btn2"><img src="img/Occupations-Technical-Support-Representative-Male-Light-icon.png" height="60">Задать вопрос по кровле</button>
 					</div>
 				</div>
 				<div class="main-col">
 					<div class="slider">
 						<img class="img" src="img/picture.png" width="640">
+						<div class="outimg1"><img src="img/right.png"></div>
 					</div>
 					<h2>Как с нами работать?</h2>
 					<p>Для того, чтобы ТСС предоставил Вам смету и счёт по монтажу кровли необходимо:</p>
@@ -91,10 +91,56 @@
 						<li>передать ТСС проект, рисунок, фото, эскиз Вашей кровли по адресу <a href="#">tssrus@mail.ru</a> или<br>Вы можете воспользоваться услугой <a href="#">замер кровли</a>.</li>
 					</ul>
 					<p>После предоставления всей информации в течение двух дней мы подготовим для Вас счёт по<br> монтажу Вашей кровли.</p>
-
 				</div>
 			</div>
 		</main>
+		<footer role="contentinfo">
+			<div class="brands">
+				<ul>
+					<li><img src="img/logo/Brand7.gif"></li>
+					<li><img src="img/logo/Brand8.gif"></li>
+					<li><img src="img/logo/Brand1.gif"></li>
+					<li><img src="img/logo/Brand2.gif"></li>
+					<li><img src="img/logo/Brand3.gif"></li>
+					<li><img src="img/logo/Brand4.gif"></li>
+					<li><img src="img/logo/Brand5.gif"></li>
+					<li><img src="img/logo/Brand7.gif"></li>
+					<li><img src="img/logo/Brand8.gif"></li>
+					<li><img src="img/logo/Brand1.gif"></li>
+					<li><img src="img/logo/Brand2.gif"></li>
+				</ul>
+			</div>
+			<div class="footermenu">
+				<ul class="footermenu-menu">
+					<li>СВЯЗАТЬСЯ С НАМИ</li>
+					<li>ЦЕНЫ</li>
+					<li>ПОЛЕЗНЫЕ СТАТЬИ</li>
+					<li>О КОМПАНИИ</li>
+					<li>ПОРТФОЛИО</li>
+					<li>КОНТАКТЫ</li>
+				</ul>
+			<div class="footerinfo">
+				<ul class="footerinfolist">
+					<li>Часы работы:</li>
+					<li>Телефон #1</li>
+					<li>Телефон #2</li>
+					<li>E-mail:</li>
+				</ul>
+				<ul class="footerinfolist2">
+					<li>Пн-Суб с 9:00-19:05</li>
+					<li>8 (495) 2208077</li>
+					<li>8 (916) 4447874</li>
+					<li>tssrus@mail.ru</li>
+				</ul>
+			</div>
+			<div class="footerinfo-text">
+				<p>У нас лучшие цены на профессиональные<br>монтажные работы в Москве<br>OOO "ТехСтройСервис"</p>
+			</div>
+			</div>
+			<div class="footerinfo-important">
+				<h6><br>Все права защищены (С) ООО "ТехСтройСервис".<br>При копировании материалов ссылка на сайт http://www.tssrus.com/ обязательна!</h6>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

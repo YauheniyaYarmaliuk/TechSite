@@ -1,0 +1,64 @@
+/* Content */
+
+main .content .aside-col {
+	width: 543px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-family: Ubuntu;
+	font-weight: 500;
+	font-style: italic;
+}
+
+main .content .main-col {
+	margin-left: 543px;
+	padding-top: 60px;
+}
+
+/* Minor-nav */
+
+.minor-nav {
+	width: 440px;
+	background: #336699;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.minor-nav li {
+	display: block;
+	line-height: 40px;
+}
+
+.minor-nav li a {
+	display: block;
+	width: 360px;
+	height: 40px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid white;
+}
+
+.minor-nav li a:hover {
+	background: #6699cc;
+}
+
+
+/* Button */
+
+.button-aside-btn {
+	width: 543px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+ button .aside-btn2 {
+	display: block;
+}
+
+.button-aside-btn img {
+	padding-left: 42px;
+	padding-right: 42px;
+ }

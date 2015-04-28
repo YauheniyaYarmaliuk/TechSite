@@ -1,0 +1,32 @@
+/* Content-slider */
+
+main .content .main-col .slider {
+	padding: 6px;
+	background: #cccccc;
+	width: 640px;
+	margin: 0 auto;
+	position: relative;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+main .content .main-col .slider .outimg1 {
+	position: absolute;
+	top: 219px;
+	right: -38px;
+}
+
+/* main .content .main-col .slider .outimg2 {
+	margin-left: -38px;
+	margin-top: 219px;
+} */
+
+/* Text */
+
+main .content .main-col ul {
+	padding-left: 18px;
+}
+
+main .content .main-col h2 {
+	text-align: center;
+}
