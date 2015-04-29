@@ -137,3 +137,27 @@
 	display: none;
 }
 
+.main-header .main-menu {
+	position: relative;
+}
+
+.main-header .main-menu:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	top: 0px;
+	left: 5px;
+	right: 5px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.main-header .main-menu:before {
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background: #fff;
+}

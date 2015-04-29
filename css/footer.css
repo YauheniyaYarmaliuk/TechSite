@@ -1,10 +1,11 @@
-/* Footer */
+/* Footermenu */
 
 .footermenu {
 	background: #666666;
 	height: 115px;
 	font-family: Ubuntu;
 	font-weight: 500;
+	padding-bottom: 26px;
 }
 
 .footermenu-menu {
@@ -15,16 +16,23 @@
 	font-size: 0;
 }
 
-
 .footermenu-menu li {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 17px;
 	padding-right: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: right;
 	color: white;
 	border-bottom: 1px solid #999999;
+}
+
+.footermenu-menu li:first-child {
+	float: left;
+	margin-left: 167px;
+	padding: 4px;
+	padding-bottom: 13px;
+	padding-top: 16px;
 }
 
 .footerinfo {
@@ -66,5 +74,5 @@
 	color: white;
 	text-align: center;
 	padding-bottom: 2px;
+	font-size: 14px;
 }
-
